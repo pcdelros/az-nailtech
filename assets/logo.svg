@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">AZ Nail Tech logo</title>
+  <desc id="desc">Rounded blush logo mark with stylized nail shapes and AZ initials.</desc>
+  <rect width="120" height="120" rx="34" fill="#211817"/>
+  <path d="M33 77c12-29 27-43 45-43 8 0 14 5 14 13 0 17-17 36-44 45-12 4-20-4-15-15Z" fill="#f6c8c3"/>
+  <path d="M42 74c10-19 21-29 33-29 5 0 8 3 8 7 0 11-12 23-30 30-8 3-14-2-11-8Z" fill="#fff8f2"/>
+  <path d="M28 31h16l-8 22h-8l4-10h-8l4-12Zm55 0h13L85 61h-9l7-18H72l3-12h8Z" fill="#d9d3ca"/>
+</svg>
