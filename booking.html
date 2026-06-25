@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book an Appointment | AZ Nail Tech</title>
+  <meta name="description" content="Request a nail appointment with AZ Nail Tech. Choose your service, design level, preferred date, and notes.">
+  <meta name="theme-color" content="#f9d8d3">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="booking-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="AZ Nail Tech home"><img src="assets/logo.svg" alt="" class="brand-mark"><span>AZ Nail Tech</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="menu-line"></span><span class="menu-line"></span><span class="menu-line"></span><span class="sr-only">Menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="services.html">Services</a><a href="pricing.html">Pricing</a><a href="gallery.html">Gallery</a><a href="nail-care.html">Nail Care</a><a href="about.html">About</a><a href="contact.html">Contact</a><a class="nav-cta" href="booking.html">Book Now</a></nav>
+  </header>
+  <main id="main">
+    <section class="page-hero"><p class="eyebrow">Booking request</p><h1>Request an appointment with the details needed to quote the set.</h1><p>This front-end form is ready for layout and validation. Connect it to a real form service or booking tool before publishing.</p></section>
+    <section class="section booking-layout">
+      <form class="booking-form" id="booking-form" novalidate>
+        <div class="form-row"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name"></div>
+        <div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
+        <div class="form-row"><label for="service">Service</label><select id="service" name="service" required><option value="">Choose a service</option><option>Gel manicure</option><option>Builder gel overlay</option><option>Soft gel extensions</option><option>Fill or maintenance</option><option>Removal</option><option>Not sure yet</option></select></div>
+        <div class="form-row"><label for="design">Design level</label><select id="design" name="design" required><option value="">Choose design level</option><option>Solid color</option><option>Simple art</option><option>French or chrome</option><option>Detailed custom art</option><option>I need help deciding</option></select></div>
+        <div class="form-row"><label for="date">Preferred date</label><input id="date" name="date" type="date" required></div>
+        <div class="form-row"><label for="notes">Notes or inspo details</label><textarea id="notes" name="notes" rows="5" placeholder="Current nails, desired shape, length, colors, and any design inspiration."></textarea></div>
+        <button class="button primary" type="submit">Prepare request</button><p class="form-status" id="form-status" role="status"></p>
+      </form>
+      <aside class="booking-card"><h2>Before booking</h2><ul class="check-list"><li>Include current nail condition.</li><li>Mention length and shape goals.</li><li>Send inspo photos through the final booking channel.</li><li>Confirm price, deposit policy, and address before appointment day.</li></ul><a class="button secondary full" href="pricing.html">Review pricing first</a></aside>
+    </section>
+  </main>
+  <footer class="site-footer"><div><a class="footer-brand" href="index.html">AZ Nail Tech</a><p>Trendy nail art, structured manicures, and soft-lux sets for clients across the Phoenix area.</p></div><div><h2>Explore</h2><a href="services.html">Services</a><a href="pricing.html">Pricing</a><a href="gallery.html">Gallery</a><a href="booking.html">Book an appointment</a></div><div><h2>Contact</h2><a href="mailto:hello@aznailtech.com">hello@aznailtech.com</a><a href="https://www.instagram.com/" rel="noreferrer">Instagram</a><p>Arizona studio details are placeholders. Replace before publishing.</p></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
